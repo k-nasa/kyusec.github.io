@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+$con_color: #777;
+
+html{
+  font-family:"メイリオ", Meiryo, "MS PGothic", "MS Ｐゴシック", "ヒラギノ角ゴ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";
+}
+
+.navbar-nav>.active>a{
+  background-color: $con_color !important;
+  color: #eee !important;
+}
+
+p{
+  font-size: 20px;
+}
+
+.navbar-nav>.active>a:hover{
+  background-color: $con_color !important;
+}
+
+.navbar-inverse{
+  background-color: $con_color !important;
+  border: none !important;
+  color: #eee;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: #eee;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+  background-color: $con_color !important;
+  color: #eee;
+}
+
+.navbar-brand{
+  padding: 10px !important;
+
+  img{
+    height: 40px;
+  }
+}
+
+.navbar-collapse{
+  border: none !important;
+  max-height: 500px !important;
+}
+
+.navbar-nav > li > a{
+  line-height: 30px;
+}
+
+.navbar-toggle{
+  background-color: $con_color !important;
+}
+
+.top{
+  margin-top: 40px;
+}
+
+.container{
+  padding: 70px 0 40px 0;
+  width: 100%;
+}
+
+.back-color{
+  background-color: #333;
+  color: #eee;
+}
+
+h1{
+  font-size: 26px !important;
+  margin: 0 0 30px 0;
+}
+
+.main{
+  h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+}
+
+.news{
+  li{
+    margin: 10px 0;
+    list-style-type: none;
+  }
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.news-day{
+  text-align: right;
+}
+
+.map{
+  width: 100%;
+  height: 20em;
+}
+
+footer{
+  background-color: $con_color;
+  color: #fff;
+  padding: 20px 0 20px 0;
+}
+
+.copyright{
+  font-size: 14px;
+}
+
+
+a:hover, a:focus, button:hover, button:focus{
+  opacity: .8 !important;
+}
+
+.page-top{
+  background-color: #999;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.page-top:hover{
+  opacity: .8;
+}
+
+.contact{
+  font-size: 22px;
+  background-color: $con_color;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 20px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+}
+
+.time-table{
+  font-size: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.profile-img{
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.profile{
+  margin: 30px auto;
+  h2{
+    font-size: 24px;
+  }
+}
+
+.member{
+  img{
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    padding: 0 0 10px 0;
+    border-radius: 5px;
+  }
+  display: block;
+  padding: 10px;
+  color: #fff;
+  p{
+    line-height: 16px;
+  }
+  .aff{
+    font-size: 12px;
+  }
+}
+
+.member:hover{
+  text-decoration: none;
+  color: #fff;
+}
