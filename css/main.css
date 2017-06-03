@@ -112,6 +112,9 @@ a:hover, a:focus, button:hover, button:focus {
   max-width: 500px;
   margin: 0 auto; }
 
+.prfile-img-div {
+  padding-top: 30px; }
+
 .profile-img {
   margin: 0 auto;
   display: block;
