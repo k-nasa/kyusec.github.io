@@ -27,7 +27,7 @@ p {
 .navbar-brand {
   padding: 10px !important; }
   .navbar-brand img {
-    height: 40px; }
+    height: 30px; }
 
 .navbar-collapse {
   border: none !important;
@@ -147,4 +147,16 @@ a:hover, a:focus, button:hover, button:focus {
   color: #fff; }
 .row {
   max-width: 100%;
+}
+
+.kyushu {
+  font-family: Georgia, "游明朝体", "YuMincho", "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.kyushu a {
+  color: #FF7F50;
+  text-decoration: none;
 }
