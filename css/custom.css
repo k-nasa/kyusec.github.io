@@ -28,6 +28,7 @@ body, input, textarea, select {
   
   .jumbotron-heading {
     font-weight: 300;
+    margin-top: 50px;
   }
   
   .shusai {
@@ -39,7 +40,8 @@ body, input, textarea, select {
   }
   
   .lead {
-    font-weight: 550;
+    font-weight: 300;
+    font-size: 1.2em;
   }
   
   footer {
