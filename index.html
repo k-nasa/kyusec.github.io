@@ -31,13 +31,34 @@
   </head>
   <body>
     <header>
-      <div class="navbar navbar-dark bg-dark box-shadow">
-        <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <img src="https://kyusec.imgix.net/logo.png?w=600&auto=format&auto=compress" alt="Kyushu Security Conference" width="150px">
-          </a>
-        </div>
-      </div>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <a class="navbar-brand" href="#"><img src="https://kyusec.imgix.net/logo.png?w=600&auto=format&auto=compress" alt="Kyushu Security Conference" width="150px"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#001">タイムスケジュール</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#002">講演内容</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#003">アクセス</a>
+              </li>
+              <!-- <li class="nav-item active">
+                  <a class="nav-link" href="#004">主催</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#005">実行委員</a>
+                  </li> -->
+              <li class="nav-item active">
+                  <a class="nav-link" href="#006">お問い合わせ</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
     </header>
     <main role="main">
       <section class="jumbotron text-center">
@@ -49,9 +70,9 @@
             <br>
             <br>本イベントは年に一度九州で開催する情報セキュリティに関するカンファレンスです
             <br>
-            <br>今年度も、情報セキュリティに関する倫理面と技術面の両方を学ぶことが出来ます
+            <br>今年度も、情報セキュリティに関する倫理面と技術面の両方を学ぶ二日間として
             <br>
-            <br>詳細に関しては近日公開予定です。
+            9/29(土) - 30(日)に福岡工業大学にて開催します
             <br>
             <br>昨年に関しては
             <a href="./2017/index.html">こちら</a>からご覧になれます
@@ -59,16 +80,58 @@
         </div>
       </section>
       <div class="album py-5 text-center bg-light">
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-center text-primary font-weight-bold title">更新情報</h3>
+            <dl>
+                <dt>2018年8月5日</dt>
+                <dd>開催日を更新しました</dd>
+                </dl>
+            <dl>
+              <dt>2018年7月1日</dt>
+              <dd>サイトをオープンしました</dd>
+              </dl>
+          </div>
+          <div class="col-md-6">
+            <h3 class="text-center text-primary font-weight-bold title">当日の持参物</h3>
+            <p>近日公開です</p>
+            <h3 class="text-center text-primary font-weight-bold title">事前の準備</h3>
+            <p>近日公開です</p>
+          </div>
+        </div>
+        </div>        
+      </div>
+      <div class="album py-5 text-center" id="001">
+        <h3 class="text-center text-primary font-weight-bold times">タイムスケジュール</h3>
+          <div class="container">
+        近日公開です
+      </div>
+      </div>
+      <div class="album py-5 text-center bg-light" id="002">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="text-center text-primary font-weight-bold title">講演内容</h3>
+            近日公開です
+          </div>
+        </div>
+      </div>
+      <div class="album py-5 text-center" id="003">
+        <h3 class="text-center text-primary font-weight-bold title">アクセス</h3>
+        <p class="text-center">811-0214<br>福岡県福岡市東区和白東3-30-1<br>福岡工業大学 FITホール 2F セミナー室</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3319.5618782502274!2d130.438083!3d33.694407!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xee3436e91c2715c6!2sFukuoka+Institute+of+Technology!5e0!3m2!1sen!2sjp!4v1495765410435" class="map" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="album py-5 text-center bg-light" id="004">
         <div class="container shusai">
-          <h1 class="jumbotron-heading">主催</h1>
+          <h3 class="text-center text-primary font-weight-bold title">主催</h3>
           <a href="https://student-kyushu.org/">
             <img src="./img/kyushu.svg" alt="九州学生エンジニア連合" width="100%">
           </a>
         </div>
       </div>
-      <div class="album py-5 text-center bg-light">
+      <div class="album py-5 text-center" id="005">
         <div class="container iin">
-          <h1 class="jumbotron-heading">実行委員</h1>
+          <h3 class="text-center text-primary font-weight-bold title">実行委員</h3>
           <div class="row">
             <div class="col-md-12">
               <div class="card mb-4 box-shadow">
@@ -85,9 +148,9 @@
           </div>
         </div>
       </div>
-      <div class="album py-5 text-center bg-light">
+      <div class="album py-5 text-center bg-light" id="006">
         <div class="container shusai">
-          <h1 class="jumbotron-heading">お問い合わせ</h1>
+          <h3 class="text-center text-primary font-weight-bold title">お問い合わせ</h3>
           <p>お問い合わせは下記メールアドレスまでお願いします。</p>
           <a href="mailto:kyusec@student-kyushu.org" class="btn btn-primary my-2">kyusec@student-kyushu.org</a>
         </div>

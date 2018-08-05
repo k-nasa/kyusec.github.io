@@ -1,1 +1,68 @@
-body, input, textarea, select{color: #333; font-family: "メイリオ","Hiragino Kaku Gothic Pro",Meiryo,"ヒラギノ角ゴ Pro W3","MS PGothic","MS UI Gothic",Helvetica,Arial,sans-serif; line-height: 2em;}:root{--jumbotron-padding-y: 3rem;}.jumbotron{padding-top: var(--jumbotron-padding-y); padding-bottom: var(--jumbotron-padding-y); margin-bottom: 0; background-color: #fff;}@media (min-width: 768px){.jumbotron{padding-top: calc(var(--jumbotron-padding-y) * 2); padding-bottom: calc(var(--jumbotron-padding-y) * 2);}}.jumbotron p:last-child{margin-bottom: 0;}.jumbotron-heading{font-weight: 300;}.shusai{max-width: 500px;}.iin{max-width: 300px;}.lead{font-weight: 550;}footer{padding-top: 3rem; padding-bottom: 3rem;}footer p{margin-bottom: .25rem;}.box-shadow{box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);}
+body, input, textarea, select {
+    color: #333;
+    font-family: "メイリオ", "Hiragino Kaku Gothic Pro", Meiryo, "ヒラギノ角ゴ Pro W3", "MS PGothic", "MS UI Gothic", Helvetica, Arial, sans-serif;
+    line-height: 2em;
+  }
+  
+  :root {
+    --jumbotron-padding-y: 3rem;
+  }
+  
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .shusai {
+    max-width: 500px;
+  }
+  
+  .iin {
+    max-width: 300px;
+  }
+  
+  .lead {
+    font-weight: 550;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
+  .box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  }
+
+  .times {
+    margin-bottom: 1.5em;
+  }
+
+  .title {
+      margin: 0 0 0.8em 0;
+  }
+
+  .map {
+    width: 100%;
+    height: 20em; }
