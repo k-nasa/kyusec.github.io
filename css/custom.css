@@ -37,6 +37,7 @@ body, input, textarea, select {
 
   .iin {
     max-width: 300px;
+    margin: auto;
   }
 
   .kouen {
